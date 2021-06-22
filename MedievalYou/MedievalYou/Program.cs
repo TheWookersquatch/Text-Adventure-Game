@@ -11,12 +11,12 @@ namespace MedievalTextGame
                 "Human \n" +
                 "Elf \n" +
                 "Goblin");
-            if (Console.ReadLine() == "Human")
+            if (Console.ReadLine() != "Human")
             {
-                Human player1 = new Human (Human.CreateNewHuman());
-                
-
+                Console.WriteLine("FALSE. Elves and goblins do not exist. You are a human.");
             }
+            Human player1 = new Human(Human.CreateNewHuman());
+            
 
 
 

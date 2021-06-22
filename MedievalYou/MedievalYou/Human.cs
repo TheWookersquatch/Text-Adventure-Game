@@ -37,6 +37,28 @@ namespace MedievalTextGame
             string lastName = Console.ReadLine();
             Console.Write("How old are you? ");
             int age = int.Parse(Console.ReadLine());
+            while (age < 0 || age > 75)
+            {
+                if (age < 0)
+                {
+                    Console.WriteLine($"You cannot be {age} years old. \n" +
+                        "You are answering these questions, therefore, you must be already born.\n" +
+                        "How old are you? ");
+                        age = int.Parse(Console.ReadLine());
+                }
+                else if (age > 75)
+                {
+                    Console.WriteLine($"HAHAHAHAHA!! Good one! \n" +
+                        $"You cannot be {age}, no one lives past 75. This will someday be called the Medeival Age.\n" +
+                        "Don't ask how I know, I just do.\n" +
+                        "How old are you?");
+                        age = int.Parse(Console.ReadLine());
+                }
+                else
+                {
+                    break;
+                }
+            }
             Console.WriteLine("What is your gender?\n" +
                 "male \n" +
                 "female \n" +
@@ -52,7 +74,7 @@ namespace MedievalTextGame
                 "Mage");
             string path = Console.ReadLine();
 
-            Console.WriteLine($"{firstName} {lastName} is a {age} year old {gender} human feebly striving to become a {path}.");
+            Console.WriteLine($"{firstName} {lastName} is a {age} year old human who identifies as {gender} feebly striving to become a {path}.");
 
             return new Human(firstName, lastName, age, gender, pronoun, path);
 
