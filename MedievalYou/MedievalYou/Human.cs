@@ -36,29 +36,10 @@ namespace MedievalTextGame
             Console.Write("What is your surname? ");
             string lastName = Console.ReadLine();
             Console.Write("How old are you? ");
-            int age = int.Parse(Console.ReadLine());
-            while (age < 0 || age > 75)
-            {
-                if (age < 0)
-                {
-                    Console.WriteLine($"You cannot be {age} years old. \n" +
-                        "You are answering these questions, therefore, you must be already born.\n" +
-                        "How old are you? ");
-                        age = int.Parse(Console.ReadLine());
-                }
-                else if (age > 75)
-                {
-                    Console.WriteLine($"HAHAHAHAHA!! Good one! \n" +
-                        $"You cannot be {age}, no one lives past 75. This will someday be called the Medeival Age.\n" +
-                        "Don't ask how I know, I just do.\n" +
-                        "How old are you?");
-                        age = int.Parse(Console.ReadLine());
-                }
-                else
-                {
-                    break;
-                }
-            }
+            int age;
+            int input = int.Parse(Console.ReadLine());
+            age = GetAge(input);
+           
             Console.WriteLine("What is your gender?\n" +
                 "male \n" +
                 "female \n" +
@@ -99,6 +80,31 @@ namespace MedievalTextGame
                 string pronoun = "she";
                 return pronoun;
             }
+
+        }
+        public static int GetAge(int input)
+        {
+            int age;
+            while (input < 0 || input > 75)
+            {
+                if (input < 0)
+                {
+                    Console.WriteLine($"You cannot be {input} years old. \n" +
+                        "You are answering these questions, therefore, you must be already born.\n" +
+                        "How old are you? ");
+                    input = int.Parse(Console.ReadLine());
+                }
+                else if (input > 75)
+                {
+                    Console.WriteLine($"HAHAHAHAHA!! Good one! \n" +
+                        $"You cannot be {input}, no one lives past 75. This will someday be called the Medeival Age.\n" +
+                        "Don't ask how I know, I just do.\n" +
+                        "How old are you?");
+                    input = int.Parse(Console.ReadLine());
+                }                
+            }            
+            age = input;
+            return age;
 
         }
        
