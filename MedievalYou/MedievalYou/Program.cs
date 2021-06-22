@@ -7,14 +7,14 @@ namespace MedievalTextGame
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to MEDIEVAL YOU");
-            Console.WriteLine("What race are you?" +
-                "Human" +
-                "Elf" +
+            Console.WriteLine("What race are you? \n" +
+                "Human \n" +
+                "Elf \n" +
                 "Goblin");
             if (Console.ReadLine() == "Human")
             {
-                Human player1 = new Human(Human.CreateNewHuman());
-                Console.WriteLine($"You are a Human. These are your stats: {player1}");
+                Human player1 = new Human (Human.CreateNewHuman());
+                
 
             }
 

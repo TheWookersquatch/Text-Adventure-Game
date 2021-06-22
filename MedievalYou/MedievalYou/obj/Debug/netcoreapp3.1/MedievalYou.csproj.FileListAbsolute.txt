@@ -1,0 +1,13 @@
+C:\Users\ripli\Desktop\repos\Text-Adventure-Game\MedievalYou\MedievalYou\bin\Debug\netcoreapp3.1\MedievalYou.exe
+C:\Users\ripli\Desktop\repos\Text-Adventure-Game\MedievalYou\MedievalYou\bin\Debug\netcoreapp3.1\MedievalYou.deps.json
+C:\Users\ripli\Desktop\repos\Text-Adventure-Game\MedievalYou\MedievalYou\bin\Debug\netcoreapp3.1\MedievalYou.runtimeconfig.json
+C:\Users\ripli\Desktop\repos\Text-Adventure-Game\MedievalYou\MedievalYou\bin\Debug\netcoreapp3.1\MedievalYou.runtimeconfig.dev.json
+C:\Users\ripli\Desktop\repos\Text-Adventure-Game\MedievalYou\MedievalYou\bin\Debug\netcoreapp3.1\MedievalYou.dll
+C:\Users\ripli\Desktop\repos\Text-Adventure-Game\MedievalYou\MedievalYou\bin\Debug\netcoreapp3.1\MedievalYou.pdb
+C:\Users\ripli\Desktop\repos\Text-Adventure-Game\MedievalYou\MedievalYou\obj\Debug\netcoreapp3.1\MedievalYou.csproj.AssemblyReference.cache
+C:\Users\ripli\Desktop\repos\Text-Adventure-Game\MedievalYou\MedievalYou\obj\Debug\netcoreapp3.1\MedievalYou.AssemblyInfoInputs.cache
+C:\Users\ripli\Desktop\repos\Text-Adventure-Game\MedievalYou\MedievalYou\obj\Debug\netcoreapp3.1\MedievalYou.AssemblyInfo.cs
+C:\Users\ripli\Desktop\repos\Text-Adventure-Game\MedievalYou\MedievalYou\obj\Debug\netcoreapp3.1\MedievalYou.csproj.CoreCompileInputs.cache
+C:\Users\ripli\Desktop\repos\Text-Adventure-Game\MedievalYou\MedievalYou\obj\Debug\netcoreapp3.1\MedievalYou.dll
+C:\Users\ripli\Desktop\repos\Text-Adventure-Game\MedievalYou\MedievalYou\obj\Debug\netcoreapp3.1\MedievalYou.pdb
+C:\Users\ripli\Desktop\repos\Text-Adventure-Game\MedievalYou\MedievalYou\obj\Debug\netcoreapp3.1\MedievalYou.genruntimeconfig.cache
